@@ -19,3 +19,6 @@ The program will determine if the position is within the limits of a know destin
 The Program can determine position to the centermeter in X, Y and Z coordinates  
 
 HTTP POST: commands are sent to HomeAssistant to process automation
+
+
+PROGRAM IS BASED ON NiTE SAMPLES 

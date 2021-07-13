@@ -7,15 +7,15 @@
 
 
 //SETUP WIFI
-const char* ssid = "SAVANNAH";
-const char* password =  "finnashycaely";
+const char* ssid = SSID;
+const char* password =  PASSWORD;
 
 
 //MQTT
-const char* mqttServer = "10.1.3.178";
+const char* mqttServer = MQTTSERVER;
 const int mqttPort = 1883;
-const char* mqttUser = "HassioMQTT";
-const char* mqttPassword = "finnreed";
+const char* mqttUser = USER;
+const char* mqttPassword = "PASSWD;
 const char* stateTopic = "home/bedroom/clock";
 const char* availableTopic = "home/bedroom/clock/available";
 const char* hostName = "wemosD1Mini-esp8266-master-clock";

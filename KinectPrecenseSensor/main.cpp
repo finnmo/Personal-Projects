@@ -36,18 +36,18 @@ int httpPost(int message) {
        just as well be a https:// URL if that is what should receive the
        data. */
 	headers = curl_slist_append(headers, "Content-Type: application/json");
-	headers = curl_slist_append(headers, "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3NTgyMDViYzM4Yjk0NTgzOTg4M2RhNTEwNWI1YmY4NiIsImlhdCI6MTYyMzIwMzEwMiwiZXhwIjoxOTM4NTYzMTAyfQ.P3zZvV9drxmUvExZu9CdFS4tkB7KO7-gGgA7vwelWTw");
+	headers = curl_slist_append(headers, "Authorization: Bearer KEYHERE");
 	if (message == 1) {
-		curl_easy_setopt(curl, CURLOPT_URL, "http://10.1.3.178:8123/api/services/input_boolean/turn_on?api_password=finnreed");
+		curl_easy_setopt(curl, CURLOPT_URL, "http://SERVER:PORT/api/services/input_boolean/turn_on?api_password=PASSWD");
 		curl_easy_setopt(curl, CURLOPT_POSTFIELDS, "{\"entity_id\":\"input_boolean.bed_switch\"}");
 	}else if (message == 2) {
-		curl_easy_setopt(curl, CURLOPT_URL, "http://10.1.3.178:8123/api/services/input_boolean/turn_off?api_password=finnreed");
+		curl_easy_setopt(curl, CURLOPT_URL, "http://SERVER:PORT/api/services/input_boolean/turn_off?api_password=PASSWD");
 		curl_easy_setopt(curl, CURLOPT_POSTFIELDS, "{\"entity_id\":\"input_boolean.bed_switch\"}");
 	}else if (message == 3) {
-		curl_easy_setopt(curl, CURLOPT_URL, "http://10.1.3.178:8123/api/services/input_boolean/turn_on?api_password=finnreed");
+		curl_easy_setopt(curl, CURLOPT_URL, "http://SERVER:PORT/api/services/input_boolean/turn_on?api_password=PASSWD");
 		curl_easy_setopt(curl, CURLOPT_POSTFIELDS, "{\"entity_id\":\"input_boolean.desk_switch\"}");
 	}else if (message == 4) {
-		curl_easy_setopt(curl, CURLOPT_URL, "http://10.1.3.178:8123/api/services/input_boolean/turn_off?api_password=finnreed");
+		curl_easy_setopt(curl, CURLOPT_URL, "http://SERVER:PORT/api/services/input_boolean/turn_off?api_password=PASSWD");
 		curl_easy_setopt(curl, CURLOPT_POSTFIELDS, "{\"entity_id\":\"input_boolean.desk_switch\"}");
 	}
     

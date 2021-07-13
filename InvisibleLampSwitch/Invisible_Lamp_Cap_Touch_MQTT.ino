@@ -6,15 +6,15 @@
 #define DEBOUNCE 100
 
 //SETUP WIFI
-const char* ssid = "SAVANNAH";
-const char* password =  "finnashycaely";
+const char* ssid = SSID;
+const char* password =  PASSWORD;
 
 
 //MQTT
-const char* mqttServer = "10.1.3.178";
+const char* mqttServer = SERVER;
 const int mqttPort = 1883;
-const char* mqttUser = "HassioMQTT";
-const char* mqttPassword = "finnreed";
+const char* mqttUser = USERNAME;
+const char* mqttPassword = PASSWORD;
 const char* stateTopic = "home/bedroom/lamp";
 const char* availableTopic = "home/bedroom/lamp/available";
 const char* hostName = "ESP8266CapTouch";

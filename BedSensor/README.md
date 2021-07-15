@@ -4,6 +4,8 @@
 Created: 26/03/21
 Modified: 2/05/21***
 
+Based on code by: https://everythingsmarthome.co.uk/howto/building-a-bed-occupancy-sensor-for-home-assistant/
+
 
 # Description:
 Bed Sensor based on 4 connected load cells to determine the weight of bed and its occupancy state.

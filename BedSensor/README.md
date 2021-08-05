@@ -16,4 +16,4 @@ Bed Sensor based on 4 connected load cells to determine the weight of bed and it
 - 5v Power Supply (Can work with 3.3 but more inaccurate)
  
 # Purpose:
-Bed Sensor based on 4 connected load cells and an Arduino based ESP8266 board will measure the change resistance based on the 5v input and convert the reading into a measurable wight in kilograms. The raw measurement will be sent to HomeAssistant to process bed related automatons. 
+Bed Sensor based on 4 connected load cells and an Arduino based ESP8266 board will measure the change resistance based on the 5v input and convert the reading into a measurable wight in kilograms. The raw measurement will be sent to HomeAssistant to process bed related automations. 

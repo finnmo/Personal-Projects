@@ -28,4 +28,4 @@ Make sure to test that sound will toggle your device, adjusting the potentiomete
 ### Step 2:
 Attach the sound meter to the inside of your lamp and thread wires through to the Wemos D1 Mini.
 
-https://github.com/finnmo/Personal-Projects/blob/main/ClickDetectorLamp/Inside_Lamp.jpg
+![Test Image1](https://github.com/finnmo/Personal-Projects/blob/main/ClickDetectorLamp/Inside_Lamp.jpg)
